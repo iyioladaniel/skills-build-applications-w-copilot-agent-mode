@@ -25,7 +25,8 @@ SECRET_KEY = "django-insecure-5s7$r6ej$o7otpvvq_3yg4(@yu@-7yh@ssd&f(ng)&-3c3ogj1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+# Allow host access to codespace URL and localhost
+ALLOWED_HOSTS = ['localhost', 'turbo-journey-grjx7jgvj4whp94x-8000.app.github.dev']
 
 
 # Application definition
